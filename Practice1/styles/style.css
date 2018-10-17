@@ -1,0 +1,30 @@
+.left-picture {
+    float: left;
+    display: inline;
+    margin-left: 80px;
+}
+.about {
+    background-color: #e8c734;
+    width: auto;
+    margin: 45px 90px 30px 565px;
+    height: 60px;
+}
+.about-text {
+    background-color: #e8c734;
+    color: #424243;
+    font-family: Arial,serif;
+    font-size: 23px;
+    width: auto;
+    text-align: left;
+    padding-top: 16px;
+    padding-left: 30px;
+}
+.text {
+    color: #424243;
+    font-family: Arial,serif;
+    font-size: 18px;
+    margin: 0 90px 60px 565px;
+    line-height: 2;
+    text-align: left;
+    width: auto;
+}
