@@ -6,8 +6,8 @@
 .about {
     background-color: #e8c734;
     width: auto;
-    margin: 45px 90px 30px 565px;
-    height: 60px;
+    margin: 45px 90px 30px 565px; /* 565 это нормально. Наверно надо было сделать через родителя и padding */
+    height: 60px; /* Почему margin в .about двигает .left-picture ,а наоборот все вообще плохо? */
 }
 .about-text {
     background-color: #e8c734;
