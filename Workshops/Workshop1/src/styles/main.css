@@ -88,6 +88,8 @@ body {
 
 .personal-info__content {
     margin-top: 35px;
+    padding-left: 0;
+    list-style: none;
 }
 
 .personal-info__text {
