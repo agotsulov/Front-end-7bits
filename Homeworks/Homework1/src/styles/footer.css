@@ -1,0 +1,18 @@
+.footer {
+    height: 97px;
+    background-color: #efefef;
+}
+
+.footer__info {
+    margin-left: 150px;
+}
+
+.footer__text {
+    font-family: Arial;
+    font-size: 14px;
+    color: #000000;
+    font-weight: inherit;
+    float: left;
+    padding-right: 23px;
+    margin: 40px 0 40px 0;
+}

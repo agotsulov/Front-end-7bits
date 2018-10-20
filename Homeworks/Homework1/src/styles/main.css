@@ -11,38 +11,6 @@ a {
     margin: 0 70px 0 70px;
 }
 
-.header__title {
-    font-family: Inconsolata;
-    font-size: 30px;
-    letter-spacing: 6px;
-    line-height: 24px;
-    color: #000000;
-}
-
-.header__info {
-    margin-top: 68px;
-    margin-bottom: 72px;
-    text-transform: uppercase;
-}
-
-.header__subtitle {
-    font-family: Arial;
-    font-size: 14px;
-    font-weight: normal;
-    color: #626262;
-    float: right;
-    padding-left: 100px;
-    margin-top: 6px;
-}
-
-.header__image {
-    width: 1062px;
-}
-
-
-
-
-
 .main {
     font-family: Arial;
     width: 982px;
@@ -60,97 +28,9 @@ a {
 }
 
 
-.main__left {
-    float: left;
-    width: 661px;
-}
-
-.main__left_image {
-    width: 661px;
-    height: 496px;
-    margin: 40px 0 40px 0;
-}
-
-.main__left_text {
-    font-size: 14px;
-    line-height: 24px;
-    color: #626262;
-}
-
-.main__left_head {
-    margin-top: 20px;
-    font-size: 30px;
-    color: #626262;
- }
-
-
-
-.main__right {
-    width: 272px;
-    float: right;
-}
 
 
 
 
-.main__right_image {
-    margin-top: 2px;
-    width: 272px;
-    height: 177px;
-}
 
-.main__right_about {
-    margin-top: 23px;
-    margin-left: -5px;
-}
 
-.main__right_about_head {
-    font-size: 24px;
-    color: #626262;
-    line-height: 20px;
-    margin-bottom: 0;
-}
-
-.main__right_about_text {
-    font-size: 12px;
-    line-height: 20px;
-    color: #626262;
-    margin-top: 15px;
-}
-
-.main__right_posts_text {
-    padding-left: 10px;
-    font-size: 16px;
-    color: #626262;
-}
-
-.main__right_posts_comments {
-    padding-left: 10px;
-    font-size: 12px;
-    color: #b4ad9e;
-    text-transform: uppercase;
-}
-
-.main__right_posts_ul {
-    padding-left: 15px;
-    list-style-image: url(../images/ellisse.png);
-}
-
-.footer {
-    height: 97px;
-    background-color: #efefef;
-}
-
-.footer__info {
-    margin-left: 150px;
-}
-
-.footer__text {
-    font-family: Arial;
-    font-size: 14px;
-    color: #000000;
-    font-weight: inherit;
-    float: left;
-    padding-right: 23px;
-    margin: 40px 0 40px 0;
-}

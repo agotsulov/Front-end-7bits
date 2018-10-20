@@ -1,0 +1,22 @@
+.main__left {
+    float: left;
+    width: 661px;
+}
+
+.main__left_image {
+    width: 661px;
+    height: 496px;
+    margin: 40px 0 40px 0;
+}
+
+.main__left_text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+}
+
+.main__left_head {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #626262;
+}
