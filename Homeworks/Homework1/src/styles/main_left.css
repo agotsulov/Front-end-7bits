@@ -3,6 +3,13 @@
     width: 661px;
 }
 
+
+.main__left_subtitle {
+    margin-top: 0;
+    font-size: 14px;
+    color: #b4ad9e;
+}
+
 .main__left_image {
     width: 661px;
     height: 496px;
