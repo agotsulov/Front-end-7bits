@@ -1,7 +1,7 @@
 .header__title {
     font-family: Inconsolata;
     font-size: 30px;
-    letter-spacing: 6px;
+    letter-spacing: 3px;
     line-height: 24px;
     color: #000000;
 }
@@ -18,7 +18,7 @@
     font-weight: normal;
     color: #626262;
     float: right;
-    padding-left: 100px;
+    padding-left: 92px;
     margin-top: 6px;
 }
 
