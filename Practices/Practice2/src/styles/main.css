@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+.main {
+    width: 360px;
+    height: 555px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 60px 60px 60px 60px;
+}
+
+
+.main_forma {
+    width: 40px;
+    height: 35px;
+    box-shadow: 0.5px 0.866px 3px rgba(212,212,212,0.75);
+    background-color: #262626
+}
+
+.main_image {
+
+}
