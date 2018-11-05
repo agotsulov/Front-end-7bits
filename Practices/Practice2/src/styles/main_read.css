@@ -1,0 +1,32 @@
+.main_read {
+    margin-top: 30px;
+    color: #999999;
+}
+
+
+.main_read_block {
+    margin: 0 auto 0 auto;
+    width: 30px;
+    height: 1px;
+    background-color: #999999;
+}
+
+.main_read_text {
+    margin-top: 4px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 24px;
+    color: inherit;
+    background-color: #FFFFFF;
+    font-family: Hind, serif;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.main_read_hover:hover .main_read_block {
+    background-color: #d67900;
+}
+
+.main_read_hover:hover .main_read_text {
+    color: #d67900;
+}
