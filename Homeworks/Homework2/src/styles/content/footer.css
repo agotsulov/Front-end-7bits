@@ -1,0 +1,28 @@
+.content__block_footer {
+}
+
+.content__block_footer li{
+    display: inline-block;
+}
+
+.content__block_footer ul{
+    display: inline-block;
+    float: right;
+}
+
+.content__block_footer_read {
+    font-size: 21px;
+    line-height: 50px;
+    color: #5c6bc0;
+    font-family: Lato, serif;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.content__block_footer_tags {
+    font-size: 15px;
+    line-height: 50px;
+    color: #000000;
+    font-family: Lato, serif;
+    text-align: right;
+}
