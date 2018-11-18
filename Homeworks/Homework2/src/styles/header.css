@@ -1,5 +1,4 @@
 .header {
-    margin-top: 11px;
 }
 
 .header_icon {
@@ -29,11 +28,11 @@
 }
 
 .header_search{
+    margin-top: 6px;
     width: 16px;
     height: 17px;
     display: inline-block;
     float: right;
-    margin-top: 2px;
     background: url("../images/header/search_normal.png");
 }
 
@@ -54,6 +53,7 @@
 }
 
 .header ul li a:hover{
+    padding-bottom: 5px;
     border-bottom: 2px solid #5c6bc0;
 }
 
@@ -65,7 +65,7 @@
 .header ul{
     display: inline-block;
     float: right;
-    margin: 0 0 0 0;
+    margin: 3px 0 0 0;
 }
 
 .header li{

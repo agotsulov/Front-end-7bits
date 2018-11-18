@@ -27,7 +27,7 @@
     text-decoration: underline;
 }
 
-.footer li a:visited{
+.footer li a:focus{
     text-decoration: none;
 }
 
@@ -41,8 +41,16 @@
 }
 
 .footer_text a{
+    color: #ffffff;
     font-weight: bold;
 }
+
+.footer_text a:hover{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 
 .footer_name {
     margin-top: 10px;
@@ -56,11 +64,17 @@
 }
 
 .footer_line {
-    margin-left: auto;
-    margin-right: auto;
     height: 2px;
     width: 756px;
     background-color: #5665b4;
+    margin: 20px auto 10px;
+}
+
+
+.footer_search{
+    width: 16px;
+    height: 16px;
+    margin: 8px 8px;
 }
 
 .footer_icon {
@@ -75,6 +89,8 @@
     background-color: #5360ac;
 }
 
-.footer_icon img{
-    margin: 0 auto;
+.footer_icon_img{
+    width: 22px;
+    height: 22px;
+    margin: 5px 5px;
 }
