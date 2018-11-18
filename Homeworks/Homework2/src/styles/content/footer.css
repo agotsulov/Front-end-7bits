@@ -22,7 +22,17 @@
 .content__block_footer_tags {
     font-size: 15px;
     line-height: 50px;
-    color: #000000;
+    color: #b2b2b2;
     font-family: Lato, serif;
     text-align: right;
+}
+
+.content__block_footer_tags:hover{
+    color: #5c6bc0;
+    text-decoration: underline;
+}
+
+.content__block_footer_tags:visited{
+    color: #5c6bc0;
+    text-decoration: none;
 }
