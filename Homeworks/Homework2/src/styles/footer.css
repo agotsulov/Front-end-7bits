@@ -10,25 +10,25 @@
 }
 
 .footer li{
+    margin-left: 40px;
     display: inline-block;
 }
 
-.footer li a{
+.footer_button{
     font-size: 16px;
     line-height: 25px;
     color: #ffffff;
     font-family: Lato, serif;
     font-weight: bold;
     text-align: right;
-    margin-left: 40px;
 }
 
-.footer li a:hover{
-    text-decoration: underline;
+.footer_button:hover{
+    border-bottom: 1px solid #ffffff;
 }
 
-.footer li a:focus{
-    text-decoration: none;
+.footer_button:focus{
+    border-bottom: 0 solid #ffffff;
 }
 
 .footer_text {
@@ -48,7 +48,7 @@
 .footer_text a:hover{
     color: #ffffff;
     font-weight: bold;
-    text-decoration: underline;
+    border-bottom: 1px solid #ffffff;
 }
 
 
@@ -79,13 +79,13 @@
 
 .footer_icon {
     width: 32px;
-    line-height: 32px;
+    height: 32px;
     padding: 1px 1px 1px 1px;
 }
 
 .footer_icon:hover {
     width: 32px;
-    height: 32px;
+    line-height: 32px;
     background-color: #5360ac;
 }
 
