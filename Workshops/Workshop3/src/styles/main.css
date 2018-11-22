@@ -1,0 +1,144 @@
+.discographi {
+    margin: 20px 20px 0 20px;
+}
+
+.discographi__header {
+    margin-bottom: 100px;
+}
+
+.discographi__title {
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 6px;
+    line-height: 59px;
+    color: #000000;
+    font-family: Dosis, serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.discographi__title-text {
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #798285;
+    font-family: Open Sans, serif;
+    text-align: center;
+}
+
+.discographi__content {
+    list-style-type: none;
+    margin-bottom: 100px;
+    padding-top: 1px;
+    padding-left: 0;
+}
+
+
+.discographi__content_entity{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.discographi__content_data {
+    margin-top: 20px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    font-family: Open Sans, serif;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 1px solid #000000;
+}
+
+.discographi__content_title {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    font-family: Open Sans, serif;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.discographi__content_text-title {
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: 24px;
+    color: #000000;
+    font-family: Open Sans, serif;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.discographi__content_text {
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+    color: #acacac;
+    font-family: Open Sans, serif;
+    margin-bottom: 40px;
+}
+
+.discographi__content_button {
+    padding: 21px 91px 21px 91px;
+    background-color: #000000;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: Open Sans, serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.discographi__content_left {
+    width: 507px;
+}
+
+.discographi__content_right {
+    margin-left: 5px;
+}
+
+.discographi__footer {
+    background-image: url("../images/footer.png");
+}
+
+@media screen and (max-width: 480px) {
+    .discographi__content_entity{
+        margin-bottom: 100px;
+        display: block;
+    }
+
+    .discographi__content_right {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .discographi__content_text-title {
+        text-align: left;
+    }
+
+    .discographi__content_text {
+        text-align: left;
+    }
+
+    .discographi__content_data {
+        width: calc(100% - 20px);
+    }
+
+    .discographi__content_left {
+        width: auto;
+    }
+
+    .discographi__content_button {
+        margin: 0 auto 0 auto;
+        text-align: center;
+    }
+
+    .discographi__image {
+        margin-left: -500px;
+    }
+}
