@@ -1,12 +1,16 @@
-.discographi {
+body {
+    margin: 0 0 0 0;
+}
+
+.discography {
     margin: 20px 20px 0 20px;
 }
 
-.discographi__header {
+.header {
     margin-bottom: 100px;
 }
 
-.discographi__title {
+.header-title {
     text-transform: uppercase;
     font-size: 50px;
     letter-spacing: 6px;
@@ -17,7 +21,7 @@
     margin-bottom: 30px;
 }
 
-.discographi__title-text {
+.header-text {
     font-size: 14px;
     letter-spacing: 2px;
     line-height: 24px;
@@ -26,7 +30,7 @@
     text-align: center;
 }
 
-.discographi__content {
+.column {
     list-style-type: none;
     margin-bottom: 100px;
     padding-top: 1px;
@@ -34,14 +38,14 @@
 }
 
 
-.discographi__content_entity{
+.content{
     margin-bottom: 100px;
     display: flex;
     flex-direction: row;
 }
 
 
-.discographi__content_data {
+.content__left-date {
     margin-top: 20px;
     padding-bottom: 3px;
     font-size: 14px;
@@ -53,7 +57,7 @@
     border-bottom: 1px solid #000000;
 }
 
-.discographi__content_title {
+.content_left-title {
     margin-top: 5px;
     font-size: 14px;
     line-height: 24px;
@@ -64,7 +68,7 @@
     text-transform: uppercase;
 }
 
-.discographi__content_text-title {
+.content__right-title {
     font-size: 23px;
     letter-spacing: 0;
     line-height: 24px;
@@ -74,7 +78,7 @@
     margin-bottom: 10px;
 }
 
-.discographi__content_text {
+.content__right-text {
     font-size: 14px;
     letter-spacing: 0;
     line-height: 24px;
@@ -83,7 +87,7 @@
     margin-bottom: 40px;
 }
 
-.discographi__content_button {
+.button {
     padding: 21px 91px 21px 91px;
     background-color: #000000;
     font-size: 14px;
@@ -92,53 +96,53 @@
     font-family: Open Sans, serif;
     font-weight: bold;
     text-decoration: none;
+    border: 0;
 }
 
-.discographi__content_left {
-    width: 507px;
+.content__left {
+    width: 45%;
 }
 
-.discographi__content_right {
-    margin-left: 5px;
+.content__right {
+    margin-left: 10px;
+    width: 55%;
 }
 
-.discographi__footer {
+.footer {
+    width: 100%;
+    height: 787px;
+    margin-top: -300px;
     background-image: url("../images/footer.png");
 }
 
 @media screen and (max-width: 480px) {
-    .discographi__content_entity{
+    .content{
         margin-bottom: 100px;
         display: block;
     }
 
-    .discographi__content_right {
+    .content__right {
         text-align: center;
         margin-left: 0;
+        width: 100%;
     }
 
-    .discographi__content_text-title {
+    .content__right-title {
         text-align: left;
     }
 
-    .discographi__content_text {
+    .content__right-text {
         text-align: left;
     }
 
-    .discographi__content_data {
-        width: calc(100% - 20px);
-    }
 
-    .discographi__content_left {
+    .content__left {
         width: auto;
     }
 
-    .discographi__content_button {
+    .content__right-button {
         margin: 0 auto 0 auto;
         text-align: center;
     }
 
-    .discographi__image {
-        margin-left: -500px;
-    }
 }
