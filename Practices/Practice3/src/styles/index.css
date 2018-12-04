@@ -1,0 +1,89 @@
+.form {
+    margin: 25px 0 0 15px;
+    width: 425px;
+    height: 768px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.14);
+    background-color: #ffffff;
+    padding-top: 1px;
+}
+
+.content {
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+.form__title {
+    font-size: 33px;
+    line-height: 20px;
+    color: #262e73;
+    font-family: "PT Sans", serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 67px;
+    margin-bottom: 42px;
+    margin-right: 9px;
+}
+
+.form__text {
+    font-size: 14px;
+    line-height: 7px;
+    color: #262e73;
+    font-family: "PT Sans", serif;
+}
+
+.form__text-ratio {
+    font-size: 17px;
+    line-height: 11px;
+    color: #282828;
+    font-family: "PT Sans", serif;
+    margin-top: 16px;
+}
+
+.form__input {
+    margin-top: 10px;
+    width: 348px;
+    height: 37px;
+    font-size: 17px;
+    line-height: 11px;
+    color: #c1c9d5;
+    font-family: "PT Sans", serif;
+    margin-bottom: 22px;
+    padding-left: 18px;
+}
+
+.form__terms {
+    display: flex;
+    flex-direction: row;
+}
+
+.form__terms-text {
+    font-size: 12px;
+    line-height: 14px;
+    color: #565d69;
+    font-family: "PT Sans", serif;
+    margin-top: -5px;
+    margin-left: 2px;
+}
+
+.form__terms-a {
+    text-decoration: none;
+    color: #262e73;
+}
+
+.form__button {
+    background-color: #0bc691;
+    border: none;
+    color: white;
+    width: 370px;
+    height: 42px;
+    border-radius: 4px;
+    box-shadow: 0 3px 15px rgba(38,46,115,0.14);
+    text-decoration: none;
+    margin: 13px 0 0 0;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 5px;
+    font-family: "PT Sans", serif;
+    letter-spacing: 0.9px;
+}
+
