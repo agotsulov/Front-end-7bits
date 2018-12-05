@@ -51,11 +51,12 @@
 }
 
 .contact_form-name {
-    width: 49%;
+    width: 50%;
+    margin-right: 0;
 }
 
 .contact_form-email {
-    width: 49%;
+    width: 50%;
     margin-left: 0;
 }
 
