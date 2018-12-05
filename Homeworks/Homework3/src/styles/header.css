@@ -1,0 +1,83 @@
+.header {
+}
+
+.header_icon {
+    width: 40px;
+    height: 35px;
+    z-index: 1;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    box-shadow: 0.5px 0.866px 3px rgba(212,212,212,0.75);
+    background-color: #262626;
+}
+
+.header_icon_image {
+    margin: 7px 0 0 7px;
+}
+
+.header_name {
+    font-size: 42px;
+    line-height: 25px;
+    color: #333333;
+    font-family: Lato, serif;
+    font-weight: bold;
+    font-style: italic;
+    display: inline-block;
+}
+
+.header_search{
+    margin-top: 6px;
+    width: 16px;
+    height: 17px;
+    display: inline-block;
+    float: right;
+    background: url("../images/header/search_normal.png");
+}
+
+.header_search:hover{
+    background: url("../images/header/search_hover.png");
+}
+
+.header_ul-curr {
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 25px;
+    color: #bdbdbd;
+    font-family: Lato, serif;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 35px;
+}
+
+.header_ul-ref {
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 25px;
+    color: #333333;
+    font-family: Lato, serif;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 35px;
+}
+
+.header_ul-ref:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #5c6bc0;
+}
+
+.header_ul-ref:focus{
+    color: #5c6bc0;
+    border-bottom: 0;
+}
+
+.header_ul{
+    display: inline-block;
+    float: right;
+    margin: 3px 0 0 0;
+}
+
+.header_ul li{
+    display: inline-block;
+}

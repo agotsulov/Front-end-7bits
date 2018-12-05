@@ -1,0 +1,20 @@
+body {
+    width: 1400px;
+    height: 4048px;
+    background-color: #f7f9fc;
+    margin: 80px 0 0 0;
+    padding: 1px 0 0 0;
+}
+
+ul {
+    padding: 0 0 0 0;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none
+}

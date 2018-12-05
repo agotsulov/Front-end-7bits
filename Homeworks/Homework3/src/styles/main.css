@@ -1,0 +1,32 @@
+
+.main {
+    margin: 0 0 0 224px;
+    width: 952px;
+}
+
+.content {
+    padding: 1px 1px 1px 1px;
+    margin-top: 73px;
+}
+
+.button  {
+    font-size: 21px;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+    color: #5c6bc0;
+    font-family: Lato, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    padding: 0 24px 0 24px;
+    background-color: #ffffff;
+}
+
+.button:hover {
+    border: 1px solid #f1f1f1;
+}
+
+.button:focus {
+    border: 1px solid #7c89cc;
+}
