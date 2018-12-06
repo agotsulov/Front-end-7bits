@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header, .main {
+    width: 1062px;
+    margin: 0 70px 0 70px;
+}
+
+.main {
+    font-family: Arial;
+    width: 982px;
+    height: auto;
+    margin-top: 90px;
+    margin-left: 150px;
+    margin-bottom: 235px;
+    padding-bottom: 1200px;
+}
+
+
+
+
+
+
+
+
+

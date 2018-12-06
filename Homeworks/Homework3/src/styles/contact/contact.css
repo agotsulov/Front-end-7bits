@@ -35,6 +35,7 @@
     line-height: 30px;
     color: #000000;
     font-family: Lato, serif;
+    border-bottom: 1px ;
 }
 
 .contact_form-text {
@@ -46,16 +47,24 @@
     border: 0;
 }
 
+.contact_form-text:focus {
+    border: 0;
+}
+
 .contact_form {
     width: auto;
 }
 
-.contact_form-name {
-    width: 50%;
-    margin-right: 0;
+.contact_user {
+    display: flex;
 }
 
-.contact_form-email {
+.contact_user-name {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.contact_user-email {
     width: 50%;
     margin-left: 0;
 }
