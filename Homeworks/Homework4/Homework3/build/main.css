@@ -234,7 +234,7 @@ body {
 
 .main {
     margin: 0 0 0 224px;
-    width: auto;
+    width: 952px;
 }
 
 .block {
@@ -794,10 +794,6 @@ li {
 
 a {
     text-decoration: none
-}
-
-.main {
-    width: 952px;
 }
 
 .content {
