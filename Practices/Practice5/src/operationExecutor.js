@@ -33,10 +33,10 @@ class OperationExecutor {
    * @returns object that contains source object and his modified clone
    */
   firstTaskExecute(arg) {
-    /**
-     * Place your code here
-     */
-    return null /* variable with result */;
+    //let obj = Object.assign(arg);
+    let obj = {...arg};
+    obj.obj1.firstName = "Ivan";
+    return obj /* variable with result */;
   }
 
   /**
@@ -46,10 +46,7 @@ class OperationExecutor {
    * @returns object that contains source objects and their combined and modified clone
    */
   secondTaskExecute(arg) {
-    /**
-     * Place your code here
-     */
-    return null /* variable with result */;
+    return Object.assign({...arg.obj1}, {...arg.obj2});
   }
 
   /**
@@ -59,10 +56,15 @@ class OperationExecutor {
    * @returns object that contains modified source object
    */
   thirdTaskExecute(arg) {
-    /**
-     * Place your code here
-     */
-    return null /* variable with result */;
+    let r = {...arg};
+    r.obj1.relatives.forEach(i => {
+      if (i.lastName === "Ivanova") {
+        i.gender = "female";
+      } else {
+        i.gender = "male";
+      }
+    });
+    return r;
   }
 
   /**
@@ -72,10 +74,9 @@ class OperationExecutor {
    * @returns object that contains array of string with female relatives
    */
   fourthTaskExecute(arg) {
-    /**
-     * Place your code here
-     */
-    return null /* variable with result */;
+    return {...arg}
+        .obj1.relatives.filter(i => i.gender === "female")
+        .map(i => `Hello, ${i.firstName} ${i.lastName}`);
   }
 
   /**
@@ -85,9 +86,7 @@ class OperationExecutor {
    * @returns string which contains the class of the button and current color
    */
   fifthTaskExecute(arg) {
-    /**
-     * Place your code here
-     */
+    document.getElementsByClassName(arg.className)[0].style.backgroundColor = arg.color;
     return '';
   }
 
@@ -98,10 +97,7 @@ class OperationExecutor {
    * @returns object that contains array of items that match the hostname on which the application is running
    */
   sixthTaskExecute(arg) {
-    /**
-     * Place your code here
-     */
-    return null;
+    return arg.hostNames.filter(i => i === location.hostname);
   }
 
   /**
@@ -111,10 +107,12 @@ class OperationExecutor {
    * @returns obj that contains swap pairs ('value: key')
    */
   seventhTaskExecute(arg) {
-    /**
-     * Place your code here
-     */
-    return null;
+    let m = new Map();
+    console.log(arg);
+    for (var [key, value] of Object.entries(arg)) {
+      m.set(value, key);
+    }
+    return m;
   }
 
   /**
