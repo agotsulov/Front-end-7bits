@@ -7,3 +7,11 @@ maket.*
 elements.*
 
 node_modules/
+packege-lock.json
+
+/build
+
+npm-debug.log*
+
+.DS_Store
+
