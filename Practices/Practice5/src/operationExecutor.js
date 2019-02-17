@@ -33,10 +33,9 @@ class OperationExecutor {
    * @returns object that contains source object and his modified clone
    */
   firstTaskExecute(arg) {
-    //let obj = Object.assign(arg);
-    let obj = {...arg};
-    obj.obj1.firstName = "Ivan";
-    return obj /* variable with result */;
+    let obj = Object.assign({}, arg.obj1);
+    obj.firstName = "Ivan";
+    return {obj, arg} /* variable with result */;
   }
 
   /**
@@ -46,7 +45,8 @@ class OperationExecutor {
    * @returns object that contains source objects and their combined and modified clone
    */
   secondTaskExecute(arg) {
-    return Object.assign({...arg.obj1}, {...arg.obj2});
+    let obj = Object.assign({...arg.obj1}, {...arg.obj2});
+    return {obj, arg};
   }
 
   /**
@@ -107,10 +107,9 @@ class OperationExecutor {
    * @returns obj that contains swap pairs ('value: key')
    */
   seventhTaskExecute(arg) {
-    let m = new Map();
-    console.log(arg);
-    for (var [key, value] of Object.entries(arg)) {
-      m.set(value, key);
+    let m = {};
+    for (let key in arg) {
+      m[arg[key]] = key;
     }
     return m;
   }
@@ -122,10 +121,21 @@ class OperationExecutor {
    * @returns obj that built using array's values
    */
   eighthTaskExecute(arg) {
-    /**
-     * Place your code here
-     */
-    return null;
+    let t = {};
+    let buff = null;
+    for (let i in arg) {
+      if (arg[i].length % 2 === 1) {
+        arg[i].push(null);
+      }
+      for (let j in arg[i]) {
+        if (j % 2 === 1) {
+          t[buff] = arg[i][j];
+        } else {
+          buff = arg[i][j];
+        }
+      }
+    }
+    return t;
   }
 
   /**
@@ -135,10 +145,12 @@ class OperationExecutor {
    * @returns obj that contains pairs id: obj with this id
    */
   ninthTaskExecute(arg) {
-    /**
-     * Place your code here
-     */
-    return null;
+    let t = {};
+    let obj = Object.assign({}, arg.users);
+    for (let i in obj) {
+      t[obj[i].id] = {"firstName":obj[i].firstName, "lastName":obj[i].lastName};
+    }
+    return t;
   }
 
   /**
@@ -148,10 +160,12 @@ class OperationExecutor {
    * @returns obj that contains the array with info about children of the node
    */
   tenthTaskExecute(arg) {
-    /**
-     * Place your code here
-     */
-    return null;
+    let c = document.getElementsByClassName(arg.className)[0].children;
+    for (let i = 0;i <  c.length;i++) {
+      arg.childrenInfo.push({"tagName": c[i].tagName, "className": c[i].className});
+    }
+    return arg;
+
   }
 }
 
